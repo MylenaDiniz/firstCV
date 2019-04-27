@@ -6,11 +6,11 @@
 }
 
 body {
-	background: #444;
+	background: rgb(218, 84, 84);
 	font: 13px 'Open Sans', Arial, sans-serif;
 	line-height: 21px;
 	font-size: 100%;
-	color: #444;
+	color: rgb(8, 6, 6);
 }
 
 /* We tell all items to be 100% width */
@@ -21,7 +21,7 @@ body {
 .wrapper {
 	display: flex;
 	flex-flow: row wrap;
-	background: white;
+	background: rgb(240, 136, 136);
 	margin: 50px auto;
 	max-width: 1060px;
 }
@@ -39,7 +39,7 @@ body {
 
 .section {
 	/*flex-direction: row;*/
-	border-top: 1px solid #dadada;
+	border-top: 1px solid #0c0707;
 	margin: 0 60px 0 60px;
 	/*display: flex;*/
 	padding: 65px 0 65px 0;
@@ -47,13 +47,13 @@ body {
 	grid-template-columns: 2fr 5fr;
 }
 .header > .section {
-	border-top: 8px solid #dadada !important;
+	border-top: 8px solid #110c0c !important;
 	display: flex;
 	justify-content: space-between;
 }
 .title {
 	margin: 0;
-	color: #b1b1b1;
+	color: #030202;
 	font-family: 'Open Sans', Arial, sans-serif;
 	font-weight: 300;
 }
